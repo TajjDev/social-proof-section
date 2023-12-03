@@ -204,10 +204,10 @@ span{
     align-items: center;
    }
    .firstHalf{
-    width: 90%;
+    width: 350px;
    }
    .confirstHalf{
-    width: 100%;
+    width: 350px;
     display: flex;
     flex-direction: column;
     margin: 0;
