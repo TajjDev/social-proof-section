@@ -254,7 +254,7 @@ span{
     justify-content: space-evenly;
    }
    .star1{
-    width: 90%;
+    width: 350px;
     height: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -266,7 +266,7 @@ span{
 
    }
    .star2{
-    width: 90%;
+    width: 350px;
     height: 80px;
     margin-left: 0;
     flex-direction: column;
@@ -278,7 +278,7 @@ span{
     width: 10px;
 
    }
-   .star3{ width: 90%;
+   .star3{ width: 350px;
     height: 80px;
     margin-left: 0;
     flex-direction: column;
