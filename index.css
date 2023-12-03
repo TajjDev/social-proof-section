@@ -183,3 +183,9 @@ span{
     color: hsl(333, 80%, 67%);
     font-weight: 400;
 }
+
+@media screen and (max-width: 700px){
+    .mainPage{
+        height: auto;
+    }
+}
