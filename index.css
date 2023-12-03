@@ -290,22 +290,22 @@ span{
    }
    .secondHalf{
     height: 700px;
-    width: 310px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
    }
    .secondHalf .colton{
-    width: 300px;
+    width: 340px;
     margin: 0;
    }
    .secondHalf .anne{
-    width: 300px;
+    width: 340px;
     margin: 0;
    }
    .secondHalf .irene{
-    width: 300px;
+    width: 340px;
     margin: 0;
    }
 }
