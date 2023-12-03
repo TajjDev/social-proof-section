@@ -198,7 +198,7 @@ span{
    }
    .mainPage{
     font-size: 15px;
-    height: 1500px;
+    height: 1450px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -217,29 +217,35 @@ span{
     height: 600px;
    }
    .oneHalf{
-    height: 300px;
+    height: 250px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
    }
-   .oneHalf .h2w{
+   h2{
+    margin-bottom: 0; 
+    }
+   .h2w{
     display: none;
    }
    .oneHalf .h2mo{
     height: 141px;
-    font-size: 40px;
-    width: 100%;
+    margin-bottom: 0;
+    font-size: 42px;
+    width: 350px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
    }
    .pmo{
+    width: 350px;
     word-spacing: 3px;
     font-size: 15px;
     text-align: center;
+    justify-content: center;
     display: flex;
    }
    .pw{
