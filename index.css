@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}.bck{
+    background-repeat: no-repeat;
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+}
+.mainPage{
+    margin: 60px;
+    height:100vh;
+    font-family: League Spartan;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.firstHalf{
+    padding-bottom: 10px;
+    width:95% ;
+    height: 45vh;
+}
+.confirstHalf{
+    margin: 40px 80px 0 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.oneHalf{
+    width: 42.5%;
+}
+.oneHalf h2{
+    margin-bottom: 25px;
+    font-size: 50px;
+    color: hsl(300, 43%, 22%);
+}
+.oneHalf p{
+    color: hsl(303, 10%, 53%);
+}
+.twoHalf{
+    width: 42.5%;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.star1{
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 85%;
+    padding-left: 0;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.str ul{
+    display: flex;
+    list-style: none;
+}
+.str li{
+    padding: 3px;
+}
+.star2{
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    padding: 10px;
+    width: 85%;
+    padding-left: 0;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.star3{
+    border-radius: 10px;
+    margin-left: 70px;
+    padding: 10px;
+    width: 85%;
+    padding-left: 0;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secondHalf{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 55vh;
+}
+.secondHalf .colton{
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 220px;
+    width: 330px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color:  hsl(300, 43%, 22%);
+}
+.person1{
+    display: flex;
+    justify-content: start;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.person1 img{
+    border-radius: 50px;
+    width: 50px;
+}
+.person1 h3{
+    margin-left: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.secondHalf .irene{
+    margin-top: 40px;
+    margin-right: 30px;
+    border-radius: 10px;
+    height: 220px;
+    width: 330px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(300, 43%, 22%);
+}
+.person2{
+    display: flex;
+    justify-content: start;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.person2 img{
+    border-radius: 50px;
+    width: 50px;
+}
+.person2 h3{
+    margin-left: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.secondHalf .anne{
+    border-radius: 10px;
+    margin-top: 60px;
+    height: 220px;
+    width: 330px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(300, 43%, 22%);
+}
+.person3{
+    display: flex;
+    justify-content: start;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.person3 img{
+    border-radius: 50px;
+    width: 50px;
+}
+.person3 h3{
+    margin-left: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.review p{
+    line-height: 19px;
+    font-weight: 500;
+}
+span{
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
