@@ -197,42 +197,43 @@ span{
    }
    .mainPage{
     font-size: 15px;
-    height: auto;
+    height: 1500px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
    }
    .firstHalf{
     width: 90%;
-    margin-bottom: 20px;
    }
    .confirstHalf{
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    height: 600px;
    }
    .oneHalf{
+    height: 300px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 30px;
    }
    .oneHalf .h2w{
     display: none;
    }
    .oneHalf .h2mo{
-    margin-top: 70px;
-    font-size: 35px;
+    height: 141px;
+    font-size: 40px;
     width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
    }
    .pmo{
     word-spacing: 3px;
@@ -245,15 +246,19 @@ span{
    }
    .twoHalf{
     display: flex;
+    height: 300px;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
    }
    .star1{
     width: 90%;
+    height: 80px;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
+    margin-bottom: 0;
    }
    .star1 img{
     width: 10px;
@@ -261,25 +266,46 @@ span{
    }
    .star2{
     width: 90%;
+    height: 80px;
     margin-left: 0;
     flex-direction: column;
+    margin-bottom: 0;
+    justify-content: space-evenly;
+    display: flex;
    }
    .star2 img{
     width: 10px;
 
    }
-   .star3{
-    width: 90%;
+   .star3{ width: 90%;
+    height: 80px;
     margin-left: 0;
     flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
    }
    .star3 img{
     width: 10px;
 
    }
    .secondHalf{
-    width: 100%;
+    height: 700px;
+    width: 310px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .secondHalf .colton{
+    width: 300px;
+    margin: 0;
+   }
+   .secondHalf .anne{
+    width: 300px;
+    margin: 0;
+   }
+   .secondHalf .irene{
+    width: 300px;
+    margin: 0;
    }
 }
