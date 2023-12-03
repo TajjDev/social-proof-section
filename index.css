@@ -21,7 +21,6 @@
 .firstHalf{
     padding-bottom: 10px;
     width:95% ;
-    height: 45vh;
 }
 .confirstHalf{
     margin: 40px 80px 0 80px;
@@ -92,7 +91,6 @@
     display: flex;
     justify-content: center;
     width: 95%;
-    height: 55vh;
 }
 .secondHalf .colton{
     margin-top: 20px;
