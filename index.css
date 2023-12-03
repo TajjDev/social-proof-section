@@ -183,3 +183,96 @@ span{
     color: hsl(333, 80%, 67%);
     font-weight: 400;
 }
+.h2mo{
+    display: none;
+}
+.pmo{
+    display: none;
+}
+
+@media (min-width: 320px)  and (max-width:480px) {
+   .bck{
+    height: auto;
+   }
+   .mainPage{
+    font-size: 15px;
+    background-color: blue;
+    height: 100vh;
+    width: 90%;
+    margin-left: -18px;
+   }
+   .firstHalf{
+    width: 90%;
+   }
+   .confirstHalf{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+   }
+   .oneHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .oneHalf .h2w{
+    display: none;
+   }
+   .oneHalf .h2mo{
+    font-size: 25px;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   }
+   .oneHalf p{
+   }
+   .pmo{
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    padding: auto;
+    height: auto;
+   }
+   .pw{
+    display: none;
+   }
+   .twoHalf{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+   }
+   .star1{
+    width: 90%;
+   }
+   .star1 img{
+    width: 10px;
+
+   }
+   .star2{
+    width: 90%;
+    margin-left: 0;
+   }
+   .star2 img{
+    width: 10px;
+
+   }
+   .star3{
+    width: 90%;
+    margin-left: 0;
+   }
+   .star3 img{
+    width: 10px;
+
+   }
+   .secondHalf{
+    display: flex;
+    flex-direction: column;
+   }
+}
