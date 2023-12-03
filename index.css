@@ -21,6 +21,7 @@
 .firstHalf{
     padding-bottom: 10px;
     width:95% ;
+    height: 45vh;
 }
 .confirstHalf{
     margin: 40px 80px 0 80px;
@@ -91,6 +92,7 @@
     display: flex;
     justify-content: center;
     width: 95%;
+    height: 55vh;
 }
 .secondHalf .colton{
     margin-top: 20px;
@@ -182,10 +184,4 @@
 span{
     color: hsl(333, 80%, 67%);
     font-weight: 400;
-}
-
-@media screen and (max-width: 700px){
-    .mainPage{
-        height: auto;
-    }
 }
