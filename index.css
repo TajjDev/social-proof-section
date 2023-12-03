@@ -193,6 +193,7 @@ span{
 @media (min-width: 320px) and (max-width: 480px) {
    .bck{
     height: auto;
+    background-image: url(./images/bg-pattern-bottom-mobile.svg);
     background-image: url(./images/bg-pattern-top-mobile.svg);
    }
    .mainPage{
