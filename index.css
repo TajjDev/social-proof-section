@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }.bck{
     background-repeat: no-repeat;
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
     background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/);
 }
 .mainPage{
     margin: 60px;
-    height:100vh;
+    height:auto;
     font-family: League Spartan;
     font-size: 15px;
     display: flex;
@@ -19,13 +20,15 @@
     margin: auto;
 }
 .firstHalf{
-    padding-bottom: 10px;
+    height: 265px;
     width:95% ;
+    display: flex;
+    justify-content: center;
 }
 .confirstHalf{
-    margin: 40px 80px 0 80px;
     display: flex;
-    justify-content: space-around;
+    width: 1050px;
+    justify-content: space-between;
     align-items: center;
 }
 .oneHalf{
@@ -198,14 +201,15 @@ span{
    }
    .mainPage{
     font-size: 15px;
-    height: 1450px;
+    height: 1400px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
    }
    .firstHalf{
     width: 350px;
+    height: auto;
    }
    .confirstHalf{
     width: 350px;
@@ -260,7 +264,7 @@ span{
     justify-content: space-evenly;
    }
    .star1{
-    width: 350px;
+    width: 320px;
     height: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -272,7 +276,7 @@ span{
 
    }
    .star2{
-    width: 350px;
+    width: 320px;
     height: 80px;
     margin-left: 0;
     flex-direction: column;
@@ -284,7 +288,8 @@ span{
     width: 10px;
 
    }
-   .star3{ width: 350px;
+   .star3{ 
+    width: 320px;
     height: 80px;
     margin-left: 0;
     flex-direction: column;
@@ -304,15 +309,129 @@ span{
     align-items: center;
    }
    .secondHalf .colton{
-    width: 340px;
+    width: 320px;
     margin: 0;
    }
    .secondHalf .anne{
-    width: 340px;
+    width: 320px;
     margin: 0;
    }
    .secondHalf .irene{
-    width: 340px;
+    width: 320px;
     margin: 0;
+   }
+}
+@media (min-width:481px) and (max-width:767px) {
+    .mainPage{
+        font-size: 15px;
+        width: 100%;
+        height: 1550px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center
+    }
+    .firstHalf{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .h2w{
+        display: none;
+       }
+       .oneHalf{
+        width: 95%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       }
+    .oneHalf .h2mo{
+        height: auto;
+        margin-bottom: 0;
+        font-size: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: start;
+        align-items: center;
+       }
+       .pmo{
+        height: auto;
+        word-spacing: 3px;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+       }
+       .pw{
+        display: none;
+       }
+    .secondHalf{
+        height: 750px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .confirstHalf{
+        width: 100%;
+         display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .twoHalf{
+        height: 300px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .star1{
+        width: 80%;
+        height: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-bottom: 0;
+       }
+       .star2{
+        width: 80%;
+        height: 80px;
+        margin-left: 0;
+        flex-direction: column;
+        margin-bottom: 0;
+        justify-content: space-evenly;
+        display: flex;      
+    }
+    .star3{
+        width: 80%;
+        height: 80px;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        margin-bottom: 0;
+        justify-content: space-evenly;
+        display: flex;
+    }
+    .secondHalf .colton{
+        margin: 0;
+        width: 80%;
+   }
+   .secondHalf .anne{
+        margin: 0;
+        width: 80%;
+   }
+   .secondHalf .irene{
+        margin: 0;
+        width: 80%;
    }
 }
